@@ -1,0 +1,35 @@
+.div {
+    background-color: #e2e8e0;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .element {
+    list-style-type: none;
+  }
+  
+  .button {
+    /* margin-left:9.5rem; */
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #0ea5e9;
+  }
+  .link {
+    text-decoration: none;
+    color: #0ea5e9;
+  }
+  
+  @media only screen and (min-width: 375px) {
+    .div {
+      margin-left: 1rem;
+      margin-right: 4rem;
+    }
+  
+    .button {
+      margin-left: 0rem;
+    }
+  }
+  
